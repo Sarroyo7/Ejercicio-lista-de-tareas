@@ -6,3 +6,5 @@ Funciones:
 - El límite de tareas que se pueden asignar son 8, las cuales van aleatoriamente apareciendo una vez se apreta el botón.
 - Al llegar al límites de tareas permitidas, saltará una alerta diciendo que el limite ha sido alcanzado.
 
+  Link para ver el ejercicio en acción: https://sarroyo7.github.io/Ejercicio-lista-de-tareas/
+
