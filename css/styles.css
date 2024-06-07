@@ -1,0 +1,120 @@
+/*Import de fuente de texto Rubik*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    background-color: #142d4d;
+}
+
+p {
+    font-size: 25px;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+
+h2 {
+    width: auto;
+    display: inline;
+    position: relative;
+    color:#c9e1ff;
+    left: 22%;
+    top: 45%;
+}
+
+#mainContainer {
+    width: 40%;
+    height: 510px;
+
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 30%;
+    border-radius: 20px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 20px 0px #000000ac;
+}
+
+.contenedor {
+    width: 80%;
+    height: 40px;
+
+    background-color: #3866a1;
+    text-align: center;
+    color: white;
+    margin: 10px auto;
+    justify-content: space-between;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 40px 0px #6a99d65b;
+}
+
+#agregar {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 58%;
+    top: 620px;
+
+    background-color: #355a89;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#eliminarTodo {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 43%;
+    top: 620px;
+
+    background-color: #89354a;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+
+#eliminar {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-style: none;
+    position: relative;
+    left: 5%;
+    top: 5px;
+    transition-duration: 0.2s;
+}
+
+/* --------- HOVERS ---------- */
+
+#agregar:hover {
+    background: linear-gradient(90deg, #4773ac, #3e6598);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+#eliminarTodo:hover {
+    background: linear-gradient(90deg, #91343a, #9f3939);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+#eliminar:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transform: scale(1.11);
+}
+
+
+
+
+
